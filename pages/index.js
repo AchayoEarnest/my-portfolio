@@ -5,9 +5,11 @@ import {
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
-
 import Image from "next/image";
 import devearn from "../public/dev-earn-wave.png";
+import design from "../public/design.png";
+import code from "../public/code.png";
+import consulting from "../public/consulting.png";
 
 export default function Home() {
   return (
@@ -53,6 +55,65 @@ export default function Home() {
           </div>
           <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden">
             <Image src={devearn} layout="fill" objectFit="cover" />
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className=" text-3xl py-1 ">Services I offer</h3>
+            <p className=" text-md py-2 leading-8 text-gray-800 ">
+              Since the beginning of my freelance journey, I have done remote
+              work for{" "}
+              <span className="text-teal-500">
+                Cahayo Techlinks $ Winam Systems
+              </span>{" "}
+              and collaborated with talented team to solve problems by creating
+              digital softwares for both business and consumer use.
+            </p>
+            <p className=" text-md py-2 leading-8 text-gray-800 ">
+              I also tutor other upcoming developers to ensure they follow the
+              right path while developing their skills
+            </p>
+          </div>
+          <div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={design} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2">
+                Beautiful Designs
+              </h3>
+              <p className="py-2">
+                Creating elegant designs suited for your needs in design theory.
+              </p>
+              <h4 className="py-4 text-teal-600">Design tools i use</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">Corel Draw</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={code} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2">
+                Beautiful Designs
+              </h3>
+              <p className="py-2">
+                Creating elegant designs suited for your needs in design theory.
+              </p>
+              <h4 className="py-4 text-teal-600">Design tools i use</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">Corel Draw</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={consulting} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2">
+                Beautiful Designs
+              </h3>
+              <p className="py-2">
+                Creating elegant designs suited for your needs in design theory.
+              </p>
+              <h4 className="py-4 text-teal-600">Design tools i use</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">Corel Draw</p>
+            </div>
           </div>
         </section>
       </main>
