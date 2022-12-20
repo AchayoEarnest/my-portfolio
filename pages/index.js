@@ -6,6 +6,9 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 
+import Image from "next/image";
+import devearn from "../public/dev-earn-wave.png";
+
 export default function Home() {
   return (
     <>
@@ -34,7 +37,9 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium">Earnest Achayo</h2>
+            <h2 className="text-5xl py-2 text-teal-600 font-medium">
+              Earnest Achayo
+            </h2>
             <h3 className=" text-2xl py-2">Developer and designer</h3>
             <p className=" text-md py-5 leading-8 text-gray-800">
               Freelancer providing services for programming needs. Join me down
@@ -46,7 +51,9 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillYoutube />
           </div>
-  
+          <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden">
+            <Image src={devearn} layout="fill" objectFit="cover" />
+          </div>
         </section>
       </main>
     </>
