@@ -10,12 +10,12 @@ import devearn from "../public/dev-earn-wave.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from '../public/web1.png';
-import web1 from '../public/web1.png';
-import web1 from '../public/web1.png';
-import web1 from '../public/web1.png';
-import web1 from '../public/web1.png';
-import web1 from '../public/web1.png';
+import web1 from "../public/web1.png";
+import web2 from "../public/web2.png";
+import web3 from "../public/web3.png";
+import web4 from "../public/web4.png";
+import web5 from "../public/web5.png";
+import web6 from "../public/web6.png";
 
 export default function Home() {
   return (
@@ -123,7 +123,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div> 
+          <div>
             <h3 className=" text-3xl py-1">Portfolio</h3>
             <p className=" text-md py-2 leading-8 text-gray-800 ">
               Since the beginning of my freelance journey, I have done remote
@@ -138,6 +138,26 @@ export default function Home() {
               I also tutor other upcoming developers to ensure they follow the
               right path while developing their skills
             </p>
+          </div>
+          <div>
+            <div>
+              <Image src={web1} />
+            </div>
+            <div>
+              <Image src={web2} />
+            </div>
+            <div>
+              <Image src={web3} />
+            </div>
+            <div>
+              <Image src={web4} />
+            </div>
+            <div>
+              <Image src={web5} />
+            </div>
+            <div>
+              <Image src={web6} />
+            </div>
           </div>
         </section>
       </main>
