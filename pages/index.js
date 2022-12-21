@@ -10,6 +10,12 @@ import devearn from "../public/dev-earn-wave.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
+import web1 from '../public/web1.png';
+import web1 from '../public/web1.png';
+import web1 from '../public/web1.png';
+import web1 from '../public/web1.png';
+import web1 from '../public/web1.png';
+import web1 from '../public/web1.png';
 
 export default function Home() {
   return (
@@ -114,6 +120,24 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Corel Draw</p>
             </div>
+          </div>
+        </section>
+        <section>
+          <div> 
+            <h3 className=" text-3xl py-1">Portfolio</h3>
+            <p className=" text-md py-2 leading-8 text-gray-800 ">
+              Since the beginning of my freelance journey, I have done remote
+              work for{" "}
+              <span className="text-teal-500">
+                Cahayo Techlinks $ Winam Systems
+              </span>{" "}
+              and collaborated with talented team to solve problems by creating
+              digital softwares for both business and consumer use.
+            </p>
+            <p className=" text-md py-2 leading-8 text-gray-800 ">
+              I also tutor other upcoming developers to ensure they follow the
+              right path while developing their skills
+            </p>
           </div>
         </section>
       </main>
